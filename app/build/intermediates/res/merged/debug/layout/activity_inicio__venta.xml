@@ -1,0 +1,967 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="1000dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TableLayout
+                        android:id="@+id/tablaCuerpo"
+                        android:layout_width="950dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:shrinkColumns="1" >
+
+                        <TableRow
+                            android:id="@+id/TablaPrincipal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/TextView00"
+                                android:layout_width="4dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Nº"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                        
+                            <TextView
+                                android:id="@+id/TextView01"
+                                android:layout_width="4dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="SKU"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Producto"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Cantidad"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Valor"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Accion"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                             <TextView
+                                android:id="@+id/numeroSKU1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                            
+                            <TextView
+                                android:id="@+id/tvvSKU1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                        
+                            <TextView
+                                android:id="@+id/tvvSKU2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                        
+                            <TextView
+                                android:id="@+id/tvvSKU3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                        
+                            <TextView
+                                android:id="@+id/tvvSKU4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                      
+                            <TextView
+                                android:id="@+id/tvvSKU5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                       
+                            <TextView
+                                android:id="@+id/tvvSKU6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                        
+                            <TextView
+                                android:id="@+id/tvvSKU7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                        
+                            <TextView
+                                android:id="@+id/tvvSKU8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                      
+                            <TextView
+                                android:id="@+id/tvvSKU9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                       
+                            <TextView
+                                android:id="@+id/tvvSKU10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                       
+                            <TextView
+                                android:id="@+id/tvvSKU11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/table12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/numeroSKU12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                                                        
+                            <TextView
+                                android:id="@+id/tvvSKU12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvP12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvN12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvV12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvbtnDel12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:layout_weight="0.3"
+                                android:background="#000000"
+                                android:text="Eliminar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#FF0000"
+                                android:textStyle="bold" />
+                        </TableRow>
+                    </TableLayout>
+                    
+                    <TextView
+                        android:id="@+id/textView99"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/totalfinal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#00FF66"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <Button
+                        android:id="@+id/btnIVAgregar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Agregar" />
+
+                    <Button
+                        android:id="@+id/btnIVGuardar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Guardar" />
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

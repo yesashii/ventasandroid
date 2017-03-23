@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tableLayout1" >
+
+                <TableRow
+                    android:id="@+id/tableRow01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Calibre :  "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" />
+
+					<Spinner
+                    	android:id="@+id/spCalibre"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:listitem="@android:layout/simple_spinner_item" />
+                </TableRow>
+                
+                <TableRow
+                    android:id="@+id/tableRow02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Indicador :  "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" />
+
+					<Spinner
+                        android:id="@+id/spIndicador"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:listitem="@android:layout/simple_spinner_item" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Censo :  "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" />
+
+					<Spinner
+                    	android:id="@+id/spMotivonoCenso"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:listitem="@android:layout/simple_spinner_item" />
+                </TableRow>
+                
+            </TableLayout>
+					
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tableLayout2" >
+
+            </TableLayout>
+    
+    <Button
+        android:id="@+id/btncGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+        
+    <Button
+        android:id="@+id/btncFinalizar"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:text="Finalizar" />
+    	
+</LinearLayout>

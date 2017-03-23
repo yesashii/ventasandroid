@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dsm.ventas_desa"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="dsm.ventas_desa.Login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Principal"
+            android:label="@string/title_activity_principal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Sincronizacion"
+            android:label="@string/title_activity_sincronizacion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Clientes"
+            android:label="@string/title_activity_clientes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Nuevo_Cliente"
+            android:label="@string/title_activity_nuevo__cliente"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Venta"
+            android:label="@string/title_activity_cliente__ruta_principal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Resumen"
+            android:label="@string/title_activity_resumen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Listado_Clientes"
+            android:label="@string/title_activity_listado__clientes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Ver_Cliente"
+            android:label="@string/title_activity_ver__cliente"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.VerCliente2"
+            android:label="@string/title_activity_ver_cliente2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.VerDetalle3"
+            android:label="@string/title_activity_ver_cliente2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.VerDetalle2"
+            android:label="@string/title_activity_ver_cliente2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Ver_Detalle"
+            android:label="@string/title_activity_ver_cliente2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Venta_En_Ruta"
+            android:label="@string/title_activity_venta__en__ruta"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Venta_No_Ruta"
+            android:label="@string/title_activity_venta__no__ruta"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Insertar_Ruta"
+            android:label="@string/title_activity_insertar__ruta"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Informar_NO_VENTA"
+            android:label="@string/title_activity_informar__no__vent"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Inicio_Venta"
+            android:label="@string/title_activity_inicio__venta"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Seleccionar_Producto"
+            android:label="@string/title_activity_seleccionar__producto"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Seleccionar_Cantidad"
+            android:label="@string/title_activity_seleccionar__cantidad"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Finalizar_Venta"
+            android:label="@string/title_activity_finalizar__venta"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Pedidos"
+            android:label="@string/title_activity_pedidos" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.VerCliente3"
+            android:label="@string/title_activity_ver_cliente3" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.MenuCenso"
+            android:label="@string/title_activity_Censo" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Envio_Censo"
+            android:label="@string/title_activity_Censo" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Clientes_Censo"
+            android:label="@string/title_activity_Censo" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Listado_Censo"
+            android:label="@string/title_activity_Censo" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Inicio_Censo"
+            android:label="@string/title_activity_Censo" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Censo"
+            android:label="@string/title_activity_Censo" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Finalizar_Censo"
+            android:label="@string/title_activity_Censo" >
+        </activity>
+        <activity
+            android:name="dsm.ventas_desa.Estadistica"
+            android:label="@string/title_activity_Censo" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ventas_DESA 3.9</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">Venta_DESA 3.9</string>
+    <string name="lblBienvenida">Sistema de Login</string>
+    <string name="strNombreLogin">Nombre</string>
+    <string name="strPassword">Password</string>
+    <string name="strAcceder">Acceder</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_sincronizacion">Sincronizacion 3.9</string>
+    <string name="title_activity_clientes">Clientes</string>
+    <string name="title_activity_nuevo__cliente">Nuevo Cliente</string>
+    <string name="title_activity_cliente__ruta_principal">Cliente Ruta</string>
+    <string name="title_activity_resumen">Resumen</string>
+    <string name="title_activity_listado__clientes">Listado Clientes</string>
+    <string name="title_activity_ver__cliente">Informacion del Cliente</string>
+    <string name="title_activity_venta__en__ruta">Venta en Ruta</string>
+    <string name="title_activity_venta__no__ruta">Venta fuera de Ruta</string>
+    <string name="title_activity_insertar__ruta">Ingreso de Ruta</string>
+    <string name="title_activity_informar__no__vent">Informar No Venta</string>
+    <string name="title_activity_inicio__venta">Venta</string>
+    <string name="title_activity_seleccionar__producto">Seleccionar Producto</string>
+    <string name="title_activity_seleccionar__cantidad">Seleccione Cantidad</string>
+    <string name="title_activity_finalizar__venta">Finalizar Venta</string>
+    <string name="title_activity_pedidos">Pedidos</string>
+    <string name="title_activity_ver_cliente2">Ver Cliente</string>
+    <string name="title_activity_ver_cliente3">Ver Cliente</string>
+    <string name="title_activity_MenuCenso">Menu Censo</string>
+    <string name="title_activity_ListadoCenso">Listado Censos</string>
+    <string name="title_activity_ClientesCenso">Clientes</string>
+    <string name="title_activity_InicioCenso">Inicio Censo</string>
+    <string name="title_activity_Censo">Censo</string>      
+</resources>

@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Finalizar_Venta" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       	<LinearLayout
+	    	android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical" >
+
+            <TableRow
+                android:id="@+id/tableRow01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+	            <TextView
+		            android:id="@+id/FCtextView01"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Censo: "
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+	            
+	        	<TextView
+		            android:id="@+id/FCtextView02"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+            </TableRow>
+                
+            <TableRow
+                android:id="@+id/tableRow02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+	           		
+				<TextView
+		            android:id="@+id/FCtextView05"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Fecha actual: "
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+	            
+	           	<TextView
+		            android:id="@+id/FCtextView06"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+	           		
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+	           		
+				<TextView
+		            android:id="@+id/FCtextView03"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Total de Respuestas: "
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+					           
+	           	<TextView
+		            android:id="@+id/FCtextView04"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </TableRow>
+                
+		</LinearLayout>
+
+    </ScrollView>
+
+    <Button
+    	android:id="@+id/FCbtnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+                
+</LinearLayout>

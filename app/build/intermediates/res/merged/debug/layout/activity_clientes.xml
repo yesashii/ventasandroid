@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+
+
+
+    <Button
+        android:id="@+id/btnVerClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Clientes" />
+
+
+
+
+    <Button
+        android:id="@+id/btnNuevoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nuevo Cliente" />
+
+</LinearLayout>

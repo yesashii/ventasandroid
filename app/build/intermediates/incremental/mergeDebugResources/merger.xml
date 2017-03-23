@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="18.0.0$Generated" generated="true"><source path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res"/><source path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\generated\res\rs\debug"/><source path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\debug\res"/></dataSet><dataSet config="18.0.0" from-dependency="true" generated-set="18.0.0$Generated"><source path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\res"><file path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\res\values\values.xml" qualifiers=""><dimen name="default_gap">16dip</dimen><declare-styleable name="GridLayout">
+
+        
+
+
+        
+        <attr name="orientation">
+
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="rowCount"/>
+        
+        <attr format="integer" name="columnCount"/>
+        
+        <attr format="boolean" name="useDefaultMargins"/>
+        
+        <attr name="alignmentMode">
+
+            
+            <enum name="alignBounds" value="0"/>
+            
+            <enum name="alignMargins" value="1"/>
+        </attr>
+        
+        <attr format="boolean" name="rowOrderPreserved"/>
+        
+        <attr format="boolean" name="columnOrderPreserved"/>
+    </declare-styleable><declare-styleable name="GridLayout_Layout">
+
+        
+
+
+        
+
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        
+        <attr name="android:layout_margin"/>
+        
+        <attr name="android:layout_marginLeft"/>
+        
+        <attr name="android:layout_marginTop"/>
+        
+        <attr name="android:layout_marginRight"/>
+        
+        <attr name="android:layout_marginBottom"/>
+
+        
+
+
+        
+        <attr format="integer" name="layout_row"/>
+        
+        <attr format="integer" min="1" name="layout_rowSpan"/>
+        
+        <attr format="integer" name="layout_column"/>
+        
+        <attr format="integer" min="1" name="layout_columnSpan"/>
+        
+        <attr name="layout_gravity">
+
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+    </declare-styleable></file></source></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res"><file name="bclientes" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-hdpi\bclientes.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="bclientes2" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-hdpi\bclientes2.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_search" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-hdpi\ic_action_search.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="pic01" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-hdpi\pic01.png" qualifiers="hdpi-v4" type="drawable"/><file name="pic02" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-hdpi\pic02.png" qualifiers="hdpi-v4" type="drawable"/><file name="warning" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-hdpi\warning.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_action_search" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-mdpi\ic_action_search.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_search" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-xhdpi\ic_action_search.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="activity_censo" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_censo.xml" qualifiers="" type="layout"/><file name="activity_clientes" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_clientes.xml" qualifiers="" type="layout"/><file name="activity_clientescenso" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_clientescenso.xml" qualifiers="" type="layout"/><file name="activity_envio_censo" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_envio_censo.xml" qualifiers="" type="layout"/><file name="activity_estadistica_censo" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_estadistica_censo.xml" qualifiers="" type="layout"/><file name="activity_finalizar_censo" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_finalizar_censo.xml" qualifiers="" type="layout"/><file name="activity_finalizar__venta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_finalizar__venta.xml" qualifiers="" type="layout"/><file name="activity_informar__no__vent" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_informar__no__vent.xml" qualifiers="" type="layout"/><file name="activity_iniciocenso" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_iniciocenso.xml" qualifiers="" type="layout"/><file name="activity_inicio__venta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_inicio__venta.xml" qualifiers="" type="layout"/><file name="activity_insertar__ruta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_insertar__ruta.xml" qualifiers="" type="layout"/><file name="activity_listadocenso" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_listadocenso.xml" qualifiers="" type="layout"/><file name="activity_listado__clientes" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_listado__clientes.xml" qualifiers="" type="layout"/><file name="activity_login" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_menucenso" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_menucenso.xml" qualifiers="" type="layout"/><file name="activity_nuevo__cliente" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_nuevo__cliente.xml" qualifiers="" type="layout"/><file name="activity_pedidos" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_pedidos.xml" qualifiers="" type="layout"/><file name="activity_principal" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_principal.xml" qualifiers="" type="layout"/><file name="activity_resumen" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_resumen.xml" qualifiers="" type="layout"/><file name="activity_seleccionar__cantidad" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_seleccionar__cantidad.xml" qualifiers="" type="layout"/><file name="activity_seleccionar__producto" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_seleccionar__producto.xml" qualifiers="" type="layout"/><file name="activity_sincronizacion" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_sincronizacion.xml" qualifiers="" type="layout"/><file name="activity_venta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_venta.xml" qualifiers="" type="layout"/><file name="activity_venta__en__ruta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_venta__en__ruta.xml" qualifiers="" type="layout"/><file name="activity_venta__no__ruta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_venta__no__ruta.xml" qualifiers="" type="layout"/><file name="activity_ver_cliente2" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_ver_cliente2.xml" qualifiers="" type="layout"/><file name="activity_ver_cliente3" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_ver_cliente3.xml" qualifiers="" type="layout"/><file name="activity_ver_detalle" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_ver_detalle.xml" qualifiers="" type="layout"/><file name="activity_ver_detalle2" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_ver_detalle2.xml" qualifiers="" type="layout"/><file name="activity_ver_detalle3" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_ver_detalle3.xml" qualifiers="" type="layout"/><file name="activity_ver__cliente" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\activity_ver__cliente.xml" qualifiers="" type="layout"/><file name="listitem_titulos" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\listitem_titulos.xml" qualifiers="" type="layout"/><file name="listitem_titulos_small" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\layout\listitem_titulos_small.xml" qualifiers="" type="layout"/><file name="activity_censo" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_censo.xml" qualifiers="" type="menu"/><file name="activity_clientes" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_clientes.xml" qualifiers="" type="menu"/><file name="activity_clientescenso" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_clientescenso.xml" qualifiers="" type="menu"/><file name="activity_cliente__ruta_principal" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_cliente__ruta_principal.xml" qualifiers="" type="menu"/><file name="activity_finalizar__venta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_finalizar__venta.xml" qualifiers="" type="menu"/><file name="activity_informar__no__vent" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_informar__no__vent.xml" qualifiers="" type="menu"/><file name="activity_iniciocenso" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_iniciocenso.xml" qualifiers="" type="menu"/><file name="activity_inicio__venta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_inicio__venta.xml" qualifiers="" type="menu"/><file name="activity_insertar__ruta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_insertar__ruta.xml" qualifiers="" type="menu"/><file name="activity_listadocenso" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_listadocenso.xml" qualifiers="" type="menu"/><file name="activity_listado__clientes" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_listado__clientes.xml" qualifiers="" type="menu"/><file name="activity_login" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_login.xml" qualifiers="" type="menu"/><file name="activity_nuevo__cliente" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_nuevo__cliente.xml" qualifiers="" type="menu"/><file name="activity_pedidos" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_pedidos.xml" qualifiers="" type="menu"/><file name="activity_principal" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_principal.xml" qualifiers="" type="menu"/><file name="activity_resumen" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_resumen.xml" qualifiers="" type="menu"/><file name="activity_seleccionar__cantidad" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_seleccionar__cantidad.xml" qualifiers="" type="menu"/><file name="activity_seleccionar__producto" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_seleccionar__producto.xml" qualifiers="" type="menu"/><file name="activity_sincronizacion" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_sincronizacion.xml" qualifiers="" type="menu"/><file name="activity_venta__en__ruta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_venta__en__ruta.xml" qualifiers="" type="menu"/><file name="activity_venta__no__ruta" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_venta__no__ruta.xml" qualifiers="" type="menu"/><file name="activity_ver_cliente2" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_ver_cliente2.xml" qualifiers="" type="menu"/><file name="activity_ver_cliente3" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_ver_cliente3.xml" qualifiers="" type="menu"/><file name="activity_ver__cliente" path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\menu\activity_ver__cliente.xml" qualifiers="" type="menu"/><file path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\values\integers.xml" qualifiers=""><integer name="columnas">2</integer><integer name="Filas">8</integer></file><file path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\values\strings.xml" qualifiers=""><string name="title_activity_clientes">Clientes</string><string name="title_activity_login">Venta_DESA 3.9</string><string name="title_activity_seleccionar__producto">Seleccionar Producto</string><string name="title_activity_venta__en__ruta">Venta en Ruta</string><string name="title_activity_nuevo__cliente">Nuevo Cliente</string><string name="title_activity_InicioCenso">Inicio Censo</string><string name="menu_settings">Settings</string><string name="title_activity_venta__no__ruta">Venta fuera de Ruta</string><string name="title_activity_ver__cliente">Informacion del Cliente</string><string name="title_activity_inicio__venta">Venta</string><string name="strPassword">Password</string><string name="title_activity_listado__clientes">Listado Clientes</string><string name="title_activity_pedidos">Pedidos</string><string name="title_activity_ListadoCenso">Listado Censos</string><string name="title_activity_informar__no__vent">Informar No Venta</string><string name="strNombreLogin">Nombre</string><string name="title_activity_sincronizacion">Sincronizacion 3.9</string><string name="title_activity_ver_cliente2">Ver Cliente</string><string name="hello_world">Hello world!</string><string name="title_activity_ver_cliente3">Ver Cliente</string><string name="title_activity_principal">Principal</string><string name="app_name">Ventas_DESA 3.9</string><string name="title_activity_insertar__ruta">Ingreso de Ruta</string><string name="title_activity_Censo">Censo</string><string name="title_activity_cliente__ruta_principal">Cliente Ruta</string><string name="title_activity_resumen">Resumen</string><string name="lblBienvenida">Sistema de Login</string><string name="title_activity_seleccionar__cantidad">Seleccione Cantidad</string><string name="title_activity_ClientesCenso">Clientes</string><string name="title_activity_MenuCenso">Menu Censo</string><string name="strAcceder">Acceder</string><string name="title_activity_finalizar__venta">Finalizar Venta</string></file><file path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="android:Theme.Holo"/></file></source><source path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\generated\res\rs\debug"/><source path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="GridLayout"><attr name="orientation">
+
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr><attr format="integer" name="rowCount"/><attr format="integer" name="columnCount"/><attr format="boolean" name="useDefaultMargins"/><attr name="alignmentMode">
+
+            
+            <enum name="alignBounds" value="0"/>
+            
+            <enum name="alignMargins" value="1"/>
+        </attr><attr format="boolean" name="rowOrderPreserved"/><attr format="boolean" name="columnOrderPreserved"/></declare-styleable><declare-styleable name="GridLayout_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr format="integer" name="layout_row"/><attr format="integer" min="1" name="layout_rowSpan"/><attr format="integer" name="layout_column"/><attr format="integer" min="1" name="layout_columnSpan"/><attr name="layout_gravity">
+
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr></declare-styleable></configuration></mergedItems></merger>

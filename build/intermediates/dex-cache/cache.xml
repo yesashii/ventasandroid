@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\mguajardo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\pre-dexed\debug\gson-2.3.1_5ce330287d5275cabea460b0d77084d1e21b0b26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\libs\ksoap2-android-assembly-2.6.5-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e18c032c01420871b8734937029be5543107ae3">
+        <dex dex="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.6.5-jar-with-dependencies_d9b8ba1f31a0c67598e2d7c2254d81860d4e1f67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="84db0a83499077982039f342dbf68faaf41cc45b">
+        <dex dex="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\pre-dexed\debug\instant-run_b919e706829e154e49393054c377fcd542df48ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mguajardo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_4882e95c8514a6b152f3e32a3ab700ff814c3a76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dafab6ae358e6c801605d50ff1fa761e77200c1a">
+        <dex dex="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\pre-dexed\debug\com.android.support-gridlayout-v7-18.0.0_4e9fed5e1ca218ab139fbb7f48622e8a02aa22db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="430b7a5fba6f77b029be11bf57e0c2a39afb7af1">
+        <dex dex="C:\Users\mguajardo\StudioProjects\Ventas_DESA\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_51e8b09c65ba85742455b0d9c8370f93a3d22089.jar" />
+    </item>
+
+</items>

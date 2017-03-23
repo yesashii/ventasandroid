@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clientes" />
+
+    <Button
+        android:id="@+id/btnVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Venta" />
+    
+    <Button
+        android:id="@+id/btnCenso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Censo" />
+
+    <Button
+        android:id="@+id/btnSincronizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sincronizar" />
+
+    <Button
+        android:id="@+id/btnPedidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedidos" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+
+
+        <Button
+            android:id="@+id/btnDesconectar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desconectar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </LinearLayout>
+    
+</LinearLayout>
